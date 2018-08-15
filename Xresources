@@ -1,0 +1,78 @@
+! Emacs.font:Meslo LG M DZ
+! URxvt.font:xft:Meslo LG M DZ:pixelsize=20
+
+#define WINDOWGEOMETRY 90x20
+
+! xterm
+xterm*dynamiccolors:      true
+xterm*utf8:               2
+xterm*geometry:           WINDOWGEOMETRY
+xterm*visualBell:         off
+xterm*highlightSelection: true
+!xterm*background:      lightblack
+!xterm*foreground:      lightblue
+!xterm*colorMode:       on
+!xterm*colorBD:         lightcyan
+!xterm*colorBDMode:     on
+!xterm*colorUL:         white
+!xterm*colorULMode:     on
+!xterm*scrollTtyOutput: false
+!xterm*scrollKey:       true
+!xterm*scrollBar:       true
+
+! URxvt
+URxvt.modifier: mod1
+URxvt*loginShell: true
+URxvt.borderless: false
+URxvt*dynamicColors: on
+URxvt.letterSpace: -1
+URxvt.lineSpace: -1
+URxvt.geometry: WINDOWGEOMETRY
+URxvt.imLocale: fr_FR.UTF-8
+URxvt.saveLines: 5000
+URxvt.scrollBar: false
+URxvt.scrollstyle: plain
+URxvt.transparent: false
+URxvt.visualBell: true
+
+! URxvt*termName: xterm-256color
+! URxvt.urgentOnBell: true
+! URxvt.urlLauncher: abrowser
+! URxvt.internalBorder: 3
+! URxvt.depth: 24
+! URxvt.shading: 100
+
+! URxvt.perl-ext-common:  default,tabbed,clipboard
+URxvt.perl-ext-common:  font-size
+! URxvt.tabbed.tabbar-fg: 4
+! URxvt.tabbed.tabbar-bg: 0
+! URxvt.tabbed.tab-fg:    9
+! URxvt.tabbed.tab-bg:    0
+! URxvt.keysym.M-c:   perl:clipboard:copy
+! URxvt.keysym.M-v:   perl:clipboard:paste
+
+! Colors
+*.cursorUnderline: false
+*.cursorBlink: false
+! Xcursor.size: 32
+
+! Custom color theme
+*.foreground:   #cfd0d1
+*.background:   #171b1f
+*.cursorColor:  #cfd0d1
+*.color0:	#171b1f
+*.color1:	#5F7C83
+*.color2:	#71898D
+*.color3:	#6B8C95
+*.color4:	#889699
+*.color5:	#909DA2
+*.color6:	#99A4A8
+*.color7:	#cfd0d1
+*.color8:	#2c3238
+*.color9:	#5F7C83
+*.color10:	#71898D
+*.color11:	#6B8C95
+*.color12:	#889699
+*.color13:	#909DA2
+*.color14:	#99A4A8
+*.color16:	#cfd0d1
