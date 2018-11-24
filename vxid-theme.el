@@ -35,7 +35,6 @@
 
 (setq xresources-no-mode-line-background
       (xresources-theme-color "background"))
-
 (setq xresources-no-window-divider
       (xresources-theme-color "background"))
 
@@ -66,7 +65,7 @@
    `(region              ((,class (:foreground ,background :background ,color5))))
    `(secondary-selection ((,class (:foreground ,background :background ,color1))))
    `(escape-glyph        ((,class (:foreground ,foreground :background ,background))))
-   
+
    ;; Buttons, Links and Decorations
    `(link         ((,class (:foreground ,color1 :underline t))))
    `(link-visited ((,class (:foreground ,color8 :underline t))))
@@ -479,6 +478,8 @@
    `(gnus-cite-3 ((,class (:foreground ,color6))))
    `(gnus-cite-4 ((,class (:foreground ,color1))))
    `(gnus-cite-5 ((,class (:foreground ,color2))))
+   `(gnus-cite-6 ((,class (:foreground ,color5))))
+   `(gnus-cite-7 ((,class (:foreground ,color6))))
 
    `(gnus-emphasis-highlight-words ((,class (:foreground "white" :weight bold))))
 
