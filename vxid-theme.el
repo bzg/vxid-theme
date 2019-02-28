@@ -214,7 +214,6 @@
    ;; Packages
 
    ;; Guide-key
-
    `(guide-key/highlight-command-face ((t (:foreground "white"))))
    `(guide-key/key-face ((t (:foreground ,color9))))
    `(guide-key/prefix-command-face ((t (:foreground "white" :weight bold))))
