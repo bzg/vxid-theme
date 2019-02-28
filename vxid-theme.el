@@ -104,7 +104,7 @@
    `(scroll-bar                 ((,class (:foreground ,background :background ,background))))
 
    ;; hl-line
-   `(hl-line ((,class (:foreground ,background :background ,color2))))
+   `(hl-line ((,class (:background ,color8))))
 
    ;; Errors - Colors defined here are used by hl-todo
    `(error   ((,class (:foreground ,color1 :weight bold))))
@@ -212,6 +212,12 @@
    `(dired-directory ((,class (:foreground ,color4))))
 
    ;; Packages
+
+   ;; Guide-key
+
+   `(guide-key/highlight-command-face ((t (:foreground "white"))))
+   `(guide-key/key-face ((t (:foreground ,color9))))
+   `(guide-key/prefix-command-face ((t (:foreground "white" :weight bold))))
 
    ;; Rainbow Delimiters
    `(rainbow-delimiters-depth-1-face   ((,class (:foreground ,color7))))
