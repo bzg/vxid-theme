@@ -50,6 +50,7 @@
       (color6 (xresources-theme-color "color6"))
       (color7 (xresources-theme-color "color7"))
       (color8 (xresources-theme-color "color8"))
+      (color9 (xresources-theme-color "color9"))
       ;; Conditional Faces
       (modeln (xresources-theme-color "color8"))
       (dividr (xresources-theme-color "color8")))
@@ -214,9 +215,9 @@
    ;; Packages
 
    ;; Guide-key
-   `(guide-key/highlight-command-face ((t (:foreground "white"))))
-   `(guide-key/key-face ((t (:foreground ,color9))))
-   `(guide-key/prefix-command-face ((t (:foreground "white" :weight bold))))
+   '(guide-key/highlight-command-face ((t (:foreground "white"))))
+   `(guide-key/key-face ((,class (:foreground ,color9))))
+   '(guide-key/prefix-command-face ((t (:foreground "white" :weight bold))))
 
    ;; Rainbow Delimiters
    `(rainbow-delimiters-depth-1-face   ((,class (:foreground ,color7))))
