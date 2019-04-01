@@ -486,6 +486,7 @@
    `(gnus-cite-5 ((,class (:foreground ,color2))))
    `(gnus-cite-6 ((,class (:foreground ,color5))))
    `(gnus-cite-7 ((,class (:foreground ,color6))))
+   `(gnus-cite-8 ((,class (:foreground ,color7))))
 
    `(gnus-emphasis-highlight-words ((,class (:foreground "white" :weight bold))))
 
@@ -583,6 +584,11 @@
    `(google-translate-suggestion-label-face ((,class (:foreground "white"))))
    `(anzu-mode-line ((,class (:foreground "white" :weight bold))))
    `(holiday       ((,class (:foreground ,color2))))
+
+   ;; debbugs
+   `(debbugs-gnu-new ((,class (:foreground "white" :weight bold))))
+   `(debbugs-gnu-handled ((,class (:foreground ,color1))))
+   `(debbugs-gnu-stale ((,class (:foreground ,color4 :slant italic))))
    
    ;; Languages
 
