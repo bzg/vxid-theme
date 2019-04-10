@@ -246,6 +246,10 @@
    ;; (ivy-modified-buffer :foreground yellow)
    ;; (ivy-subdir :foreground base5)
 
+   ;; ERC
+   `(erc-notice-face ((,class (:foreground "white"))))
+   `(erc-prompt-face ((,class (:inverse-video t))))
+
    ;; Magit 
 
    ;; Magit - Bisecting
@@ -488,7 +492,7 @@
    `(gnus-cite-7 ((,class (:foreground ,color6))))
    `(gnus-cite-8 ((,class (:foreground ,color7))))
 
-   `(gnus-emphasis-highlight-words ((,class (:foreground "white" :weight bold))))
+   `(gnus-emphasis-highlight-words ((,class (:foreground "white" :weight bold :inverse-video t))))
 
    `(mm-uu-extract ((,class (:foreground ,foreground :background ,color8))))
    `(message-mml ((,class (:foreground ,foreground :background ,color8))))
