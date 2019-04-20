@@ -1,6 +1,6 @@
 ;;; vxid-theme.el --- Another theme for GNU Emacs
 
-;; Copyright (C) 2018 Bastien Guerry
+;; Copyright (C) 2018-2019 Bastien Guerry
 
 ;; Author: Maxime Treca <root@vxid.pw>, Bastien Guerry <bzg@gnu.org>
 ;; Keywords: emacs, theme
@@ -158,7 +158,7 @@
    `(helm-visible-mark ((,class (:foreground "white" :weight bold))))
    `(helm-candidate-number ((,class (:foreground "white" :weight bold :inverse-video t))))
    `(helm-candidate-number-suspended ((,class (:foreground "white" :inverse-video t))))
-   
+
    ;; Modes
 
    ;; Diff Mode
@@ -202,7 +202,7 @@
    `(outline-7 ((,class (:foreground ,foreground :weight bold))))
    `(outline-8 ((,class (:foreground ,foreground :weight bold))))
 
-   ;; Calendar 
+   ;; Calendar
    `(calendar-today          ((,class (:foreground ,color1))))
    `(calendar-month-header   ((,class (:foreground ,color4))))
    `(calendar-weekday-header ((,class (:foreground ,color4))))
@@ -250,7 +250,7 @@
    `(erc-notice-face ((,class (:foreground "white"))))
    `(erc-prompt-face ((,class (:inverse-video t))))
 
-   ;; Magit 
+   ;; Magit
 
    ;; Magit - Bisecting
    `(magit-bisect-bad  ((,class (:foreground ,color7 :background ,background :weight bold))))
@@ -462,12 +462,12 @@
    `(gnus-summary-low-unread ((,class (:foreground "white" :slant italic))))
    `(gnus-summary-selected ((,class (:foreground ,foreground :background ,color8))))
    `(gnus-summary-cancelled ((,class (:foreground ,foreground :strike-through t))))
-   
+
    `(gnus-button ((,class (:foreground ,color6))))
    `(gnus-server-opened ((,class (:foreground "white" :weight bold))))
    `(gnus-server-closed ((,class (:foreground "white" :weight bold))))
    `(gnus-server-offline ((,class (:foreground "white" :weight bold))))
-   
+
    `(gnus-header-name ((,class (:foreground ,color1))))
    `(gnus-header-from ((,class (:foreground ,color6))))
    `(gnus-header-subject ((,class (:foreground ,foreground :weight bold))))
@@ -549,7 +549,7 @@
    `(org-agenda-done             ((,class (:foreground ,color4 :strike-through t))))
    `(org-agenda-dimmed-todo-face ((,class (:foreground ,color4))))
    `(org-agenda-restriction-lock ((,class (:foreground ,foreground :background ,color8))))
-   
+
    ;; Org - Blocks, Columns and Checkboxes
    `(org-block                    ((,class (:foreground ,foreground :background ,background))))
    `(org-block-background         ((,class (:foreground ,foreground :background ,background))))
@@ -574,7 +574,7 @@
    `(org-document-info         ((,class (:foreground "white"))))
    `(org-document-info-keyword ((,class (:foreground ,color4 :weight bold))))
    `(org-meta-line             ((,class (:foreground ,color4 :slant italic))))
-   
+
 
    ;; Org - Deadlines and Schedules
    `(org-upcoming-deadline    ((,class (:foreground ,foreground))))
@@ -589,11 +589,14 @@
    `(anzu-mode-line ((,class (:foreground "white" :weight bold))))
    `(holiday       ((,class (:foreground ,color2))))
 
-   ;; debbugs
+   ;; Debbugs
    `(debbugs-gnu-new ((,class (:foreground "white" :weight bold))))
    `(debbugs-gnu-handled ((,class (:foreground ,color1))))
    `(debbugs-gnu-stale ((,class (:foreground ,color4 :slant italic))))
-   
+
+   ;; Persp-mode
+   `(persp-selected-face ((,class (:foreground ,foreground :background ,background))))
+
    ;; Languages
 
    ;; LaTeX
@@ -645,8 +648,8 @@
 
   ;; Company quickhelp is annoying and define faces through variables
 
-  (setq company-quickhelp-color-background (xresources-theme-color "color8")))
-(setq company-quickhelp-color-foreground (xresources-theme-color "foreground"))
+  (setq company-quickhelp-color-background (xresources-theme-color "color8"))
+  (setq company-quickhelp-color-foreground (xresources-theme-color "foreground")))
 
 ;;;### autoload
 
