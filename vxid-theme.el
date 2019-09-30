@@ -502,6 +502,7 @@
    `(notmuch-search-unread-face ((,class (:foreground "white"))))
    `(notmuch-tag-face ((,class (:foreground "white" :weight bold))))
    `(notmuch-crypto-signature-unknown ((,class (:foreground ,foreground :inverse-video t))))
+   `(notmuch-wash-cited-text ((,class (:foreground ,color4))))
    `(notmuch-crypto- ((,class (:foreground ,foreground :inverse-video t))))
 
    ;; Custom face
