@@ -484,6 +484,10 @@
 
    `(gnus-cite-1 ((,class (:foreground ,color4))))
    `(message-cited-text ((,class (:foreground ,color4))))
+   `(message-cited-text-1 ((,class (:foreground ,color5))))
+   `(message-cited-text-2 ((,class (:foreground ,color6))))
+   `(message-cited-text-3 ((,class (:foreground ,color7))))
+   `(message-cited-text-4 ((,class (:foreground ,color8))))
    `(gnus-cite-2 ((,class (:foreground ,color5))))
    `(gnus-cite-3 ((,class (:foreground ,color6))))
    `(gnus-cite-4 ((,class (:foreground ,color1))))
