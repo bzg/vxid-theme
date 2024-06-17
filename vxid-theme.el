@@ -562,7 +562,7 @@
    `(org-block-end-line           ((,class (:foreground ,color4 :background ,background))))
    `(org-column                   ((,class (:foreground ,foreground :background ,color4))))
    `(org-column-title             ((,class (:foreground ,foreground :background ,color4))))
-   `(org-checkbox                 ((,class (:foreground ,color4 :box (:line-width 1 :color ,color4 :style released-button :inverse-video t)))))
+   `(org-checkbox                 ((,class (:foreground ,color4 :box (:line-width 1 :color ,color4 :style released-button)))))
    `(org-checkbox-statistics-done ((,class (:foreground ,foreground))))
    `(org-checkbox-statistics-todo ((,class (:foreground ,foreground))))
 
