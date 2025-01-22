@@ -79,14 +79,14 @@
    `(font-lock-comment-delimiter-face    ((,class (:foreground ,color5 :slant italic))))
    `(font-lock-constant-face             ((,class (:foreground ,foreground))))
    `(font-lock-doc-face                  ((,class (:foreground ,color5))))
-   `(font-lock-function-name-face        ((,class (:foreground "white" :weight bold))))
+   `(font-lock-function-name-face        ((,class (:foreground "#c5d0d2" :weight bold))))
    `(font-lock-keyword-face              ((,class (:foreground ,foreground))))
    `(font-lock-negation-char-face        ((,class (:foreground ,foreground))))
    `(font-lock-preprocessor-face         ((,class (:foreground ,foreground))))
    `(font-lock-reference-face            ((,class (:foreground ,foreground))))
    `(font-lock-string-face               ((,class (:foreground ,color3))))
    `(font-lock-type-face                 ((,class (:foreground ,foreground))))
-   `(font-lock-variable-name-face        ((,class (:foreground "white"))))
+   `(font-lock-variable-name-face        ((,class (:foreground "#c5d0d2"))))
    `(font-lock-regexp-grouping-backslash ((,class (:foreground ,foreground))))
    `(font-lock-regexp-grouping-construct ((,class (:foreground ,foreground))))
    `(font-lock-warning-face              ((,class (:foreground ,foreground))))
@@ -113,7 +113,7 @@
    `(success ((,class (:foreground ,color5 :weight bold))))
 
    ;; Term, multi-term
-   `(term-color-yellow      ((,class (:foreground "white"))))
+   `(term-color-yellow      ((,class (:foreground "#c5d0d2"))))
    `(term-color-blue        ((,class (:foreground ,color1))))
    `(term-color-magenta     ((,class (:foreground ,color1))))
    `(term-color-cyan        ((,class (:foreground ,color1))))
@@ -132,7 +132,7 @@
    `(isearch-fail        ((,class (:foreground ,color7))))
    `(lazy-highlight      ((,class (:foreground ,color2 :inverse-video t))))
    `(match               ((,class (:foreground ,foreground))))
-   `(show-paren-match    ((,class (:foreground "white" :background ,background :weight bold))))
+   `(show-paren-match    ((,class (:foreground "#c5d0d2" :background ,background :weight bold))))
    `(show-paren-mismatch ((,class (:foreground ,color7 :background ,background :weight bold :underline t))))
 
    ;; Mode line
@@ -143,21 +143,21 @@
    `(linum ((,class (:foreground ,color4 :background ,background))))
 
    ;; Helm
-   `(helm-match ((,class (:foreground "white" :weight bold))))
+   `(helm-match ((,class (:foreground "#c5d0d2" :weight bold))))
    `(helm-grep-match ((,class (:foreground ,background :background ,color1))))
    `(helm-resume-need-update ((,class (:foreground ,foreground :inverse-video t))))
    `(helm-source-header ((,class (:foreground ,foreground))))
    `(helm-grep-file ((,class (:foreground ,foreground))))
    `(helm-grep-finish ((,class (:foreground ,foreground :weight bold))))
-   `(helm-grep-lineno ((,class (:foreground "white"))))
-   `(helm-prefarg ((,class (:foreground "white"))))
-   `(helm-separator ((,class (:foreground "white"))))
+   `(helm-grep-lineno ((,class (:foreground "#c5d0d2"))))
+   `(helm-prefarg ((,class (:foreground "#c5d0d2"))))
+   `(helm-separator ((,class (:foreground "#c5d0d2"))))
    `(helm-moccur-buffer ((,class (:foreground ,color4))))
    `(helm-header-line-left-margin ((,class (:foreground ,foreground :weight bold))))
-   `(helm-selection ((,class (:foreground "white" :background ,color8))))
-   `(helm-visible-mark ((,class (:foreground "white" :weight bold))))
-   `(helm-candidate-number ((,class (:foreground "white" :weight bold :inverse-video t))))
-   `(helm-candidate-number-suspended ((,class (:foreground "white" :inverse-video t))))
+   `(helm-selection ((,class (:foreground "#c5d0d2" :background ,color8))))
+   `(helm-visible-mark ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(helm-candidate-number ((,class (:foreground "#c5d0d2" :weight bold :inverse-video t))))
+   `(helm-candidate-number-suspended ((,class (:foreground "#c5d0d2" :inverse-video t))))
 
    ;; Modes
 
@@ -208,16 +208,16 @@
    `(calendar-weekday-header ((,class (:foreground ,color4))))
 
    ;; Dired
-   `(dired-cursor ((,class (:foreground "white" :background ,color1))))
+   `(dired-cursor ((,class (:foreground "#c5d0d2" :background ,color1))))
    `(dired-header ((,class (:foreground ,color4 :background ,color8))))
    `(dired-directory ((,class (:foreground ,color4))))
 
    ;; Packages
 
    ;; Guide-key
-   '(guide-key/highlight-command-face ((t (:foreground "white"))))
+   '(guide-key/highlight-command-face ((t (:foreground "#c5d0d2"))))
    `(guide-key/key-face ((,class (:foreground ,color9))))
-   '(guide-key/prefix-command-face ((t (:foreground "white" :weight bold))))
+   '(guide-key/prefix-command-face ((t (:foreground "#c5d0d2" :weight bold))))
 
    ;; Rainbow Delimiters
    `(rainbow-delimiters-depth-1-face   ((,class (:foreground ,color7))))
@@ -247,7 +247,7 @@
    ;; (ivy-subdir :foreground base5)
 
    ;; ERC
-   `(erc-notice-face ((,class (:foreground "white"))))
+   `(erc-notice-face ((,class (:foreground "#c5d0d2"))))
    `(erc-prompt-face ((,class (:inverse-video t))))
 
    ;; Magit
@@ -276,12 +276,12 @@
 
    ;; Magit - Diffs
    `(magit-diff-added                  ((,class (:foreground ,color1 :background ,background))))
-   `(magit-diff-added-highlight        ((,class (:foreground ,color7 :background ,color8))))
+   `(magit-diff-added-highlight        ((,class (:foreground ,color5 :background ,color8))))
    `(magit-diff-base                   ((,class (:foreground ,color4 :background ,background))))
    `(magit-diff-base-highlight         ((,class (:foreground ,foreground :background ,color8))))
    `(magit-diff-conflict-heading       ((,class (:foreground ,color1 :background ,color8))))
    `(magit-diff-context                ((,class (:foreground ,color4 :background ,background))))
-   `(magit-diff-context-highlight      ((,class (:foreground ,color4 :background ,color8))))
+   `(magit-diff-context-highlight      ((,class (:foreground ,color3 :background ,color8))))
    `(magit-diff-file-heading           ((,class (:foreground ,foreground :background ,background))))
    `(magit-diff-file-heading-highlight ((,class (:foreground ,foreground :background ,color8))))
    `(magit-diff-file-heading-selection ((,class (:foreground ,foreground :background ,color8))))
@@ -291,15 +291,15 @@
    `(magit-diff-lines-heading          ((,class (:foreground ,foreground :background ,color8))))
    `(magit-diff-lines-boundary         ((,class (:foreground ,foreground :background ,background))))
    `(magit-diff-our                    ((,class (:foreground ,color4 :background ,background))))
-   `(magit-diff-our-highlight          ((,class (:foreground ,color4 :background ,background))))
-   `(magit-diff-removed                ((,class (:foreground ,color7 :background ,background))))
+   `(magit-diff-our-highlight          ((,class (:foreground ,color3 :background ,background))))
+   `(magit-diff-removed                ((,class (:foreground ,color6 :background ,background))))
    `(magit-diff-removed-highlight      ((,class (:foreground ,color1 :background ,color8))))
    `(magit-diffstat-added              ((,class (:foreground ,color1))))
-   `(magit-diffstat-removed            ((,class (:foreground ,color7))))
+   `(magit-diffstat-removed            ((,class (:foreground ,color6))))
 
    ;; Magit - Logs
    `(magit-log-author ((,class (:foreground ,color1))))
-   `(magit-log-date   ((,class (:foreground ,color7))))
+   `(magit-log-date   ((,class (:foreground ,color5))))
    `(magit-log-graph  ((,class (:foreground ,foreground))))
 
    ;; Magit - Popups
@@ -420,8 +420,8 @@
    `(cider-fringe-good-face ((,class (:foreground ,color1 :background ,background))))
 
    ;; Gnus
-   `(gnus-group-news-1 ((,class (:foreground "white" :weight bold))))
-   `(gnus-group-news-2 ((,class (:foreground "white" :weight bold))))
+   `(gnus-group-news-1 ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(gnus-group-news-2 ((,class (:foreground "#c5d0d2" :weight bold))))
    `(gnus-group-news-3 ((,class (:foreground ,foreground :weight bold))))
    `(gnus-group-news-4 ((,class (:foreground ,foreground :weight bold))))
    `(gnus-group-news-5 ((,class (:foreground ,color4 :weight bold))))
@@ -434,8 +434,8 @@
    `(gnus-group-news-6-empty ((,class (:foreground ,color8))))
    `(gnus-group-news-low-empty ((,class (:foreground "#333"))))
 
-   `(gnus-group-mail-1 ((,class (:foreground "white" :weight bold))))
-   `(gnus-group-mail-2 ((,class (:foreground "white" :weight bold))))
+   `(gnus-group-mail-1 ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(gnus-group-mail-2 ((,class (:foreground "#c5d0d2" :weight bold))))
    `(gnus-group-mail-3 ((,class (:foreground ,foreground :weight bold))))
    `(gnus-group-mail-4 ((,class (:foreground ,foreground :weight bold))))
    `(gnus-group-mail-5 ((,class (:foreground ,color4 :weight bold))))
@@ -449,30 +449,30 @@
    `(gnus-group-mail-low-empty ((,class (:foreground "#333"))))
 
    `(gnus-summary-high-ticked ((,class (:foreground ,color2))))
-   `(gnus-summary-normal-ticked ((,class (:foreground ,color2))))
-   `(gnus-summary-low-ticked ((,class (:foreground ,color2 :slant italic))))
-   `(gnus-summary-high-read ((,class (:foreground ,color6))))
-   `(gnus-summary-normal-read ((,class (:foreground ,color6))))
+   `(gnus-summary-normal-ticked ((,class (:foreground ,color4))))
+   `(gnus-summary-low-ticked ((,class (:foreground ,color6 :slant italic))))
+   `(gnus-summary-high-read ((,class (:foreground ,color2))))
+   `(gnus-summary-normal-read ((,class (:foreground ,color4))))
    `(gnus-summary-low-read ((,class (:foreground ,color6 :slant italic))))
-   `(gnus-summary-high-ancient ((,class (:foreground ,color8))))
-   `(gnus-summary-normal-ancient ((,class (:foreground ,color8))))
-   `(gnus-summary-low-ancient ((,class (:foreground ,color8 :slant italic))))
-   `(gnus-summary-high-unread ((,class (:foreground "white" :weight bold))))
-   `(gnus-summary-normal-unread ((,class (:foreground "white"))))
-   `(gnus-summary-low-unread ((,class (:foreground "white" :slant italic))))
+   `(gnus-summary-high-ancient ((,class (:foreground ,color3))))
+   `(gnus-summary-normal-ancient ((,class (:foreground ,color5))))
+   `(gnus-summary-low-ancient ((,class (:foreground ,color7 :slant italic))))
+   `(gnus-summary-high-unread ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(gnus-summary-normal-unread ((,class (:foreground "#c5d0d2"))))
+   `(gnus-summary-low-unread ((,class (:foreground "#c5d0d2" :slant italic))))
    `(gnus-summary-selected ((,class (:foreground ,foreground :background ,color8))))
    `(gnus-summary-cancelled ((,class (:foreground ,foreground :strike-through t))))
 
-   `(gnus-button ((,class (:foreground ,color6))))
-   `(gnus-server-opened ((,class (:foreground "white" :weight bold))))
-   `(gnus-server-closed ((,class (:foreground "white" :weight bold))))
-   `(gnus-server-offline ((,class (:foreground "white" :weight bold))))
+   `(gnus-button ((,class (:foreground ,color2))))
+   `(gnus-server-opened ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(gnus-server-closed ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(gnus-server-offline ((,class (:foreground "#c5d0d2" :weight bold))))
 
    `(gnus-header-name ((,class (:foreground ,color1))))
    `(gnus-header-from ((,class (:foreground ,color6))))
    `(gnus-header-subject ((,class (:foreground ,foreground :weight bold))))
    `(gnus-header-content ((,class (:foreground ,color6))))
-   `(gnus-header-newsgroups ((,class (:foreground "white" :weight bold))))
+   `(gnus-header-newsgroups ((,class (:foreground "#c5d0d2" :weight bold))))
    `(message-header-to ((,class (:foreground ,foreground))))
    `(message-header-subject ((,class (:foreground ,foreground :weight bold))))
    `(message-header-newsgroups ((,class (:foreground ,foreground :weight bold))))
@@ -496,22 +496,25 @@
    `(gnus-cite-7 ((,class (:foreground ,color6))))
    `(gnus-cite-8 ((,class (:foreground ,color7))))
 
-   `(gnus-emphasis-highlight-words ((,class (:foreground "white" :weight bold :inverse-video t))))
+   `(gnus-emphasis-highlight-words ((,class (:foreground "#c5d0d2" :weight bold :inverse-video t))))
 
    `(mm-uu-extract ((,class (:foreground ,foreground :background ,color8))))
    `(message-mml ((,class (:foreground ,foreground :background ,color8))))
 
+   ;; Shr
+   `(shr-mark ((,class (:foreground ,background :background ,foreground))))
+
    ;; Notmuch
    `(notmuch-search-flagged-face ((,class (:foreground ,foreground :weight bold))))
-   `(notmuch-search-unread-face ((,class (:foreground "white"))))
-   `(notmuch-tag-face ((,class (:foreground "white" :weight bold))))
+   `(notmuch-search-unread-face ((,class (:foreground "#c5d0d2"))))
+   `(notmuch-tag-face ((,class (:foreground "#c5d0d2" :weight bold))))
    `(notmuch-crypto-signature-unknown ((,class (:foreground ,foreground :inverse-video t))))
    `(notmuch-wash-cited-text ((,class (:foreground ,color4))))
    `(notmuch-crypto- ((,class (:foreground ,foreground :inverse-video t))))
 
    ;; Custom face
    `(custom-face-tag ((,class (:foreground ,foreground))))
-   `(custom-state ((,class (:foreground "white"))))
+   `(custom-state ((,class (:foreground "#c5d0d2"))))
 
    ;; Org Mode
 
@@ -528,13 +531,13 @@
    `(org-special-keyword ((,class (:foreground ,color4))))
    `(org-table           ((,class (:foreground ,color4))))
    `(org-time-grid       ((,class (:foreground ,color4))))
-   `(org-todo            ((,class (:foreground "white"))))
+   `(org-todo            ((,class (:foreground "#c5d0d2"))))
    `(org-verbatim        ((,class (:foreground ,color4))))
    `(org-verse           ((,class (:foreground ,color4 :slant italic))))
    `(org-warning         ((,class (:foreground ,color1 :weight bold))))
 
    ;; Org - Headers
-   `(org-level-1 ((,class (:foreground "white" :height 1.4))))
+   `(org-level-1 ((,class (:foreground "#c5d0d2" :height 1.4))))
    `(org-level-2 ((,class (:foreground ,foreground :height 1.2))))
    `(org-level-3 ((,class (:foreground ,foreground))))
    `(org-level-4 ((,class (:foreground ,foreground))))
@@ -550,7 +553,7 @@
    `(org-agenda-clocking         ((,class (:foreground ,foreground :inverse-video t))))
    `(org-agenda-date             ((,class (:foreground ,color4))))
    `(org-agenda-date-weekend     ((,class (:foreground ,color4))))
-   `(org-agenda-date-today       ((,class (:foreground "white"))))
+   `(org-agenda-date-today       ((,class (:foreground "#c5d0d2"))))
    `(org-agenda-done             ((,class (:foreground ,color4 :strike-through t))))
    `(org-agenda-dimmed-todo-face ((,class (:foreground ,color4))))
    `(org-agenda-restriction-lock ((,class (:foreground ,foreground :background ,color8))))
@@ -575,8 +578,8 @@
    `(org-date-selected ((,class (:foreground ,background :background ,foreground))))
 
    ;; Org - Document Faces
-   `(org-document-title        ((,class (:foreground "white" :weight bold))))
-   `(org-document-info         ((,class (:foreground "white"))))
+   `(org-document-title        ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(org-document-info         ((,class (:foreground "#c5d0d2"))))
    `(org-document-info-keyword ((,class (:foreground ,color4 :weight bold))))
    `(org-meta-line             ((,class (:foreground ,color4 :slant italic))))
 
@@ -589,13 +592,13 @@
    `(org-scheduled-today      ((,class (:foreground ,foreground :weight bold))))
 
    ;; Diary and calendar
-   `(diary ((,class (:foreground "white"))))
-   `(google-translate-suggestion-label-face ((,class (:foreground "white"))))
-   `(anzu-mode-line ((,class (:foreground "white" :weight bold))))
+   `(diary ((,class (:foreground "#c5d0d2"))))
+   `(google-translate-suggestion-label-face ((,class (:foreground "#c5d0d2"))))
+   `(anzu-mode-line ((,class (:foreground "#c5d0d2" :weight bold))))
    `(holiday       ((,class (:foreground ,color2))))
 
    ;; Debbugs
-   `(debbugs-gnu-new ((,class (:foreground "white" :weight bold))))
+   `(debbugs-gnu-new ((,class (:foreground "#c5d0d2" :weight bold))))
    `(debbugs-gnu-handled ((,class (:foreground ,color1))))
    `(debbugs-gnu-stale ((,class (:foreground ,color4 :slant italic))))
 
@@ -628,18 +631,18 @@
    `(font-latex-sectioning-5-face   ((,class (:foreground ,foreground :background ,background))))
 
    `(cider-enlightened-face ((,class (:inherit cider-result-overlay-face :box (:line-width -1 :color ,color7)))))
-   `(cider-enlightened-local-face ((,class (:foreground "white" :weight bold))))
+   `(cider-enlightened-local-face ((,class (:foreground "#c5d0d2" :weight bold))))
    `(cider-error-highlight-face ((,class (:inherit nil :underline (:color ,color1 :style wave)))))
    `(cider-instrumented-face ((,class (:box (:line-width 1 :color ,color1 :style released-button)))))
    `(cider-test-error-face ((,class (:inverse-video nil))))
    `(cider-test-failure-face ((,class (:inverse-video t))))
-   `(cider-test-success-face ((,class (:foreground "white" :weight bold))))
-   `(cider-traced-face ((,class (:box (:line-width -1 :color "white")))))
-   `(cider-warning-highlight-face ((,class (:inherit nil :underline (:color "white" :style wave)))))
-   `(compilation-mode-line-exit ((,class (:inherit compilation-info :foreground "white" :weight bold))))
+   `(cider-test-success-face ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(cider-traced-face ((,class (:box (:line-width -1 :color "#c5d0d2")))))
+   `(cider-warning-highlight-face ((,class (:inherit nil :underline (:color "#c5d0d2" :style wave)))))
+   `(compilation-mode-line-exit ((,class (:inherit compilation-info :foreground "#c5d0d2" :weight bold))))
    `(compilation-mode-line-fail ((,class (:inherit compilation-error :foreground ,color7 :weight bold))))
    `(custom-button-pressed-unraised ((,class (:inherit custom-button-unraised :foreground ,color2))))
-   `(custom-changed ((,class (:background ,color2 :foreground "white"))))
+   `(custom-changed ((,class (:background ,color2 :foreground "#c5d0d2"))))
    `(custom-group-tag ((,class (:inherit variable-pitch :weight bold :height 1.2))))
    `(custom-group-tag-1 ((,class (:inherit variable-pitch :weight bold :height 1.2))))
    `(custom-invalid ((,class (:inverse-video t))))
@@ -647,20 +650,19 @@
    `(custom-rogue ((,class nil)))
    `(custom-set ((,class (:inverse-video t))))
    `(custom-themed ((,class (:inverse-video t))))
-   `(custom-variable-obsolete ((,class (:foreground "white"))))
-   `(custom-variable-tag ((,class (:foreground "white" :weight bold))))
-   `(info-menu-star ((,class (:foreground "white")))))
+   `(custom-variable-obsolete ((,class (:foreground "#c5d0d2"))))
+   `(custom-variable-tag ((,class (:foreground "#c5d0d2" :weight bold))))
+   `(info-menu-star ((,class (:foreground "#c5d0d2"))))))
 
-  ;; Company quickhelp is annoying and define faces through variables
-
-  (setq company-quickhelp-color-background (xresources-theme-color "color8"))
-  (setq company-quickhelp-color-foreground (xresources-theme-color "foreground")))
+;; Company quickhelp is annoying and define faces through variables
+(setq company-quickhelp-color-background (xresources-theme-color "color8"))
+(setq company-quickhelp-color-foreground (xresources-theme-color "foreground"))
 
 ;;;### autoload
 
 (when (and (boundp 'custom-theme-load-path) load-file-name)
   (add-to-list 'custom-theme-load-path
-               (file-name-as-directory (file-name-directory load-file-name))))
+	       (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'vxid)
 
